@@ -12,9 +12,11 @@ import NavigationLink from "../forms/NavigationLink";
 const inter = Inter({
   subsets: ["latin"],
 });
-const Sidebar = () => {
+const Sidebar = ({ isOpenSidebar }) => {
   return (
-    <div className="w-[21%] mt-15 bg-gray-100 shadow-xl border px-3 border-gray-200 h-[560px] rounded-xl">
+    <div
+      className={`w-[21%] mt-15 bg-gray-100 shadow-xl border px-3 border-gray-200 h-[560px] rounded-xl ${isOpenSidebar ? "block" : "hidden"}  lg:block`}
+    >
       <div className="border-b pb-4 border-b-gray-300 text-center ">
         <button
           className={`${inter.className} w-full bg-white mt-4 mb-2 border border-gray-200 font-bold hover:bg-gray-50 text-gray-700 rounded-4xl py-2 text-[12px]`}

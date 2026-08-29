@@ -6,7 +6,7 @@ import { Menubars } from "../forms/Menubars";
 
 const HomePage = () => {
   return (
-    <div className="w-full flex flex-col justify-center mt-16.5 h-[420px] px-47">
+    <div className="w-full flex flex-col justify-center mt-16.5 h-[420px] sm:px-8 md:px-10 lg:px-47">
       <h1 className="font-['Sentient'] text-[34px] tracking-tighter font-extralight text-[#848787]">
         Search for products, stores, and brands
       </h1>
