@@ -15,7 +15,7 @@ const inter = Inter({
 const Sidebar = ({ isOpenSidebar }) => {
   return (
     <div
-      className={`w-[21%] mt-15 bg-gray-100 shadow-xl border px-3 border-gray-200 h-[560px] rounded-xl ${isOpenSidebar ? "block" : "hidden"}  lg:block`}
+      className="w-[21%] mt-15 bg-gray-100 shadow-xl border px-3 border-gray-200 h-[560px] rounded-xl hidden  lg:block"
     >
       <div className="border-b pb-4 border-b-gray-300 text-center ">
         <button

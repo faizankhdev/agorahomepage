@@ -33,13 +33,7 @@ const Header = ({ isOpenSidebar, setIsOpenSidebar }) => {
             coming soon.
           </p>
         </div>
-        <div
-          className="flex justify-center items-center border w-6 h-6 border-gray-900 p-1 rounded-full lg:hidden"
-          onClick={() => {
-            console.log("clicked");
-            setIsOpenSidebar(!isOpenSidebar);
-          }}
-        >
+        <div className="flex justify-center items-center border w-6 h-6 border-gray-900 p-1 rounded-full lg:hidden">
           <Menu className="block lg:hidden size-4" />
         </div>
       </div>
