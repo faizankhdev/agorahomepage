@@ -4,7 +4,10 @@ import Sidebar from "../components/Layout/Sidebar";
 import react from "react";
 import Layout from "@/components/Layout/Layout";
 
-const layout = ({ children }) => {
+export const metadata={
+  title:"Agora"
+}
+const layout = ({children }) => {
   return (
     <html>
       <body className=" bg-white">
