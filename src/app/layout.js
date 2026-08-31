@@ -10,7 +10,7 @@ export const metadata={
 const layout = ({children }) => {
   return (
     <html>
-      <body className=" bg-white text-black">
+      <body className=" bg-white">
         <Layout children={children} />
       </body>
     </html>
